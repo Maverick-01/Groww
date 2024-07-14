@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/topGainerFragment"
+        android:name="com.maverick.groww.owner.fragment.TopGainerFragment"
+        android:label="TopGainerFragment"
+        tools:layout="@layout/fragment_top_gainer">
+        <action
+            android:id="@+id/action_topGainerFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/topLoserFragment"
+        android:name="com.maverick.groww.owner.fragment.TopLoserFragment"
+        android:label="TopLoserFragment"
+        tools:layout="@layout/fragment_top_loser">
+        <action
+            android:id="@+id/action_topLoserFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.maverick.groww.owner.fragment.DetailFragment"
+        android:label="DetailFragment"
+        tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.maverick.groww.owner.fragment.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+</navigation>
