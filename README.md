@@ -24,6 +24,9 @@
 * Search bar for searching stocks.
 * Detail page for more information on the stock. Helps in decision-making
 
+## Apk Download
+![APK Download](https://github.com/Maverick-01/Groww/blob/main/app/apk/app-debug.apk)
+
 ## ScreenShots from the app.
 ![alt text](https://github.com/Maverick-01/Groww/blob/main/app/Groww1.jpeg)
 ![alt text](https://github.com/Maverick-01/Groww/blob/main/app/Groww2.jpeg)
